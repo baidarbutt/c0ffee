@@ -1,4 +1,5 @@
 import 'package:c0ffee/onboarding_page.dart';
+import 'package:c0ffee/statfull_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,11 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const OnboardingPage(),
+      home: StatfullWidget(),
     );
   }
 }
-
