@@ -1,5 +1,4 @@
-import 'package:c0ffee/onboarding_page.dart';
-import 'package:c0ffee/statfull_widget.dart';
+import 'package:c0ffee/count.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +16,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: StatfullWidget(),
+      return ChangeNotifierProvider(
+        
+      );
+      home: Count(),
     );
   }
 }

@@ -8,7 +8,7 @@ class StatfullWidget extends StatefulWidget {
 }
 
 class _StatfullWidgetState extends State<StatfullWidget> {
-  int x = 10;
+  int x = 0;
 
   @override
   Widget build(BuildContext context) {
